@@ -13,7 +13,7 @@ export const typeDefs = gql`
   type Standing {
     position: Int!
     positionText: String!
-    points: Int!
+    points: String!
     wins: Int!
     Driver: Driver!
     Constructors: [Constructor!]

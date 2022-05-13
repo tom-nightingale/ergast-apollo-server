@@ -30,7 +30,7 @@ export const typeDefs = gql`
   type Result {
     number: Int!
     position: Int!
-    points: Int!
+    points: String!
     grid: Int!
     laps: Int!
     status: String!
